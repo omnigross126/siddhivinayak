@@ -444,7 +444,7 @@ img,
 svg {
     
     vertical-align: middle;
-    width: auto;
+    width: 100px;
 }
 
 table {
