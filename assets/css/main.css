@@ -3190,7 +3190,7 @@ span {
 .header-3 .header-main .header-left {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 20px;
 }
 .header-3 .header-main .header-left .header-logo-2 {
   display: none;
