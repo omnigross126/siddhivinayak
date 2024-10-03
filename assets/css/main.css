@@ -805,6 +805,47 @@ span {
   position: relative;
   z-index: 9;
 }
+
+@media only screen and (max-width: 768px) {
+  .search-booking-content {
+      margin-left: 0;
+  }
+  .about {
+      margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .search-booking-content {
+      padding: 20px;
+  }
+  .about {
+      padding: 20px;
+  }
+  .icon-area {
+      margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .icon-items {
+      margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .search-booking-wrapper {
+      flex-direction: column;
+  }
+  .booking-man {
+      margin: 0 auto;
+  }
+  .product-search-area {
+      margin-top: 20px;
+  }
+}
+
+
+
 @media (max-width: 1199px) {
   .search-booking-wrapper br {
     display: none;
@@ -812,11 +853,11 @@ span {
 }
 .search-booking-wrapper .booking-man {
   position: absolute;
-  bottom: -21%;
-  left: 56%;
-  transform: translateX(-50%);
-  z-index: 9;
-  height: 705px;
+    bottom: -6%;
+    left: 63%;
+    transform: translateX(-50%);
+    z-index: 9;
+    height: 719px;
 }
 .search-booking-wrapper .booking-man img {
   width: 100%;
@@ -879,7 +920,7 @@ span {
   padding: 240px;
   background-color: var(--theme);
   border-radius: 10px;
-  margin: -170px 0px 0px 0px;
+  margin: -756px 0px 0px 770px;
   border-top-left-radius: 0;
   position: relative;
 }
@@ -5204,9 +5245,11 @@ input.main-search-input::placeholder {
 
 .section-title {
   position: relative;
-  z-index: 9;
+  /* z-index: 9; */
+  margin-left: -86px;
   margin-bottom: 30px;
-  margin-top: -7px;
+  margin-top: -112px;
+
 }
 @media (max-width: 767px) {
   .section-title {
@@ -5390,7 +5433,8 @@ input.main-search-input::placeholder {
 }
 .car-rentals-items .car-content h6 {
   font-size: 14px;
-  color: var(--theme2);
+  /* color: var(--theme2); */
+  color: black;
 }
 .car-rentals-items .car-content h6 span {
   color: var(--text);

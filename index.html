@@ -41,20 +41,186 @@
     
     </style>
 
-    
+
+<style>
+    .whatsapp {
+    position: fixed;
+    bottom: 95px;
+    right: 20px;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+    visibility: visible;
+}
+
+.whatsapp_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.whatsapp_img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:600px){
+    .whatsapp{
+        width: 13%;
+        height: 7%;
+    }
+
+    .whatsapp_img{
+        width: 120%;
+        height: 120%;
+    }
+}
+</style>
+
+
+
+
+<style>
+    .call {
+    position: fixed;
+    bottom: 155px;
+    right: 28px;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+    visibility: visible;
+}
+
+.call_img {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.call_img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:600px){
+    .call{
+        width: 10%;
+        height: 7%;
+    }
+
+    .call_img{
+        width: 138%;
+        height:98%;
+    }
+}
+
+</style>
+
+<style>
+    .search-booking-section {
+    padding: var(--section-padding);
+}
+
+@media only screen and (max-width: 1200px) {
+    :root {
+        --section-padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    :root {
+        --section-padding: 40px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --section-padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    :root {
+        --section-padding: 20px 5px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    :root {
+        --section-padding: 15px 5px;
+    }
+}
+
+.search-booking-section {
+    padding: var(--section-padding);
+}
+
+@media only screen and (max-width: 1200px) {
+    :root {
+        --section-padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    :root {
+        --section-padding: 40px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --section-padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    :root {
+        --section-padding: 20px 5px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    :root {
+        --section-padding: 15px 5px;
+    }
+}
+</style>
+
+
+
+
+
+
+
+
     </head>
 
     
     <body>
 
        
-
         <!-- Back To Top Start -->
         <div class="scroll-up">
             <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
                 <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
             </svg>
         </div>
+
+
+
+<div class="whatsapp">
+    <a href="https://wa.me/9834245909" target="_blank">
+        <img src="assets/img/WhatsApp_icon.png" alt="" height=100% width="70%" class="whatsapp_img">
+    </a>
+</div>
+
+<div class="call">
+    <a href="tel:+9834245909" target="_blank">
+    <img src="assets/img/call.webp" alt="" height=100% width="70%" class="call_img">
+</a>
+</div>
+
+       
+
+
 
         <!-- Offcanvas Area Start -->
         <div class="fix-area">
@@ -85,7 +251,7 @@
                                         <i class="fal fa-map-marker-alt"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                        <a target="_blank" href="#">R.S. No 1122/1A/2, A ward, Ring Rd, near Gangai Lawn Multipurpose Hall, Phulewadi, Kolhapur, Maharashtra 416010</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -109,7 +275,7 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+11002345909">+11002345909</a>
+                                        <a href="tel:+919637095999">+919637095999</a>
                                     </div>
                                 </li>
                             </ul>
@@ -132,8 +298,8 @@
         <div class="offcanvas__overlay"></div>
 
         <!-- Header Section Start -->
-        <header class="header-section">
-            <div class="header-top-section style-two">
+         <header class="header-section">
+            <!-- <div class="header-top-section style-two">
                 <div class="container-fluid">
                     <div class="header-top-wrapper style-2">
                         <ul class="contact-list">
@@ -161,26 +327,30 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  -->
             <div id="header-sticky" class="header-3">
                 <div class="container-fluid">
                     <div class="mega-menu-wrapper">
                         <div class="header-main">
                             <div class="header-left">
                                 <div class="logo">
+                                    
                                     <a href="index.html" class="header-logo-1">
-                                        <img src="assets/img/logo/black-logo.jpg" alt="logo-img" class="log">
+                                        <img src="assets/img/logo/black-logo.jpg" alt="logo-img" class="log" >
                                     </a>
                                    
                                 </div>
-                                <div class="mean__menu-wrapper">
+
+                            <!-- Navbar is commented -->
+
+                               <div class="mean__menu-wrapper">
                                     <div class="main-menu">
                                         <nav id="mobile-menu">
                                             <ul>
                                                 <li class="has-dropdown active menu-thumb">
                                                     <a href="index.html">
                                                     Home 
-                                                    <i class="fas fa-angle-down"></i>
+                                                    <!-- <i class="fas fa-angle-down"></i> -->
                                                     </a>
                                                 </li>
                                                 <li>
@@ -240,7 +410,7 @@
                                             </ul>
                                         </nav>
                                     </div>
-                                </div>
+                                </div>  
                             </div>
                             <div class="header-right d-flex justify-content-end align-items-center">
                                 <div class="icon-items">
@@ -259,12 +429,12 @@
                                         <i class="fas fa-bars"></i>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </header> 
 
         <!-- Search Area Start -->
         <div class="search-wrap">
@@ -310,11 +480,11 @@
                                     <div class="col-xl-12">
                                        <div class="hero-content">
                                             <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                                Welcome to remons rentals
+                                                Welcome to Siddhivinayak
                                             </h4>
                                             <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
                                                 Save big <br>
-                                                with car rental
+                                                with our Travels Service
                                             </h1>
                                        </div>
                                     </div>
@@ -335,11 +505,11 @@
                                     <div class="col-xl-12">
                                        <div class="hero-content">
                                             <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                                Welcome to remons rentals
+                                                Welcome to Siddhivinayak
                                             </h4>
                                             <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
                                                 Save big <br>
-                                                with car rental
+                                                with our Travels Service
                                             </h1>
                                        </div>
                                     </div>
@@ -349,6 +519,9 @@
                 </div>
             </div>
         </section>
+
+
+
 
         <!-- Search Booking Section Start -->
         <section class="search-booking-section section-padding">
@@ -368,9 +541,11 @@
                                         Rent Vehicle Easily
                                     </h2>
                                 </div>
-                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".6s">
-                                    Lorem ipsum is simply ipun txns mane so dummy text of free <br> available in market the printing and typesetting industry has <br> been the industry's standard dummy text ever.
-                                </p>
+                                <div class="about" style="margin-left: -90px;">
+                                         <b class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".6s">
+                                   <p>Welcome to <b>Siddhivinayak Travels</b>, your dedicated partner in crafting unforgettable journeys across India’s breathtaking landscapes. Driven by a passion for making travel convenient and affordable, Shiv Shakti Travels stands as a leading provider of comprehensive travel solutions, including customized tour packages, hotel bookings, and transportation services in major cities. Whether you're planning a business trip or a dream vacation, we ensure seamless experiences, allowing you to explore with ease and comfort.  </p>
+                                </div>
+                            
                                 <div class="icon-area">
                                     <div class="icon-items wow fadeInUp" data-wow-delay=".3s">
                                         <div class="icon">
@@ -424,12 +599,12 @@
                     <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our new cars</span>
                     <h2 class="wow fadeInUp" data-wow-delay=".4s">
                         Cars We’re Offering <br>
-                        for Rentals
+                        for Travels
                     </h2>
                 </div>
 
 
-                //start
+                
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="car-rentals-items">
@@ -449,7 +624,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -457,22 +632,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -499,7 +674,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -507,22 +682,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                           License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -544,7 +719,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -552,22 +727,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -589,7 +764,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -597,22 +772,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -641,7 +816,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -649,22 +824,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -686,7 +861,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -694,29 +869,29 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="car-rentals-items">
                             <div class="car-image">
                                 <img src="assets/img/car/05.jpg" alt="img">
@@ -734,7 +909,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -742,22 +917,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -784,7 +959,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -792,22 +967,22 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -829,7 +1004,7 @@
                                     <span>2 Reviews</span>
                                 </div>
                                 <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
                                 <div class="icon-items">
                                     <ul>
                                         <li>
@@ -837,27 +1012,171 @@
                                             6 Seats
                                         </li>
                                         <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
                                             2 Doors
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
                                         </li>
                                         <li>
                                             <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
+                                           Petrol/Disel/CNG
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
                     </div>
-                
-            </div>
+
+
+                    <!-- extra row of Cars -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="car-rentals-items">
+                            <div class="car-image">
+                                <img src="assets/img/car/05.jpg" alt="img">
+                            </div>
+                            <div class="car-content">
+                                <div class="post-cat">
+                                    2024 Model
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>2 Reviews</span>
+                                </div>
+                                <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
+                                <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
+                                <div class="icon-items">
+                                    <ul>
+                                        <li>
+                                            <img src="assets/img/car/seat.svg" alt="img" class="me-1">
+                                            6 Seats
+                                        </li>
+                                        <li>
+                                            <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
+                                            2 Doors
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                            License
+                                        </li>
+                                        <li>
+                                            <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
+                                           Petrol/Disel/CNG
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="car-rentals-items">
+                                <div class="car-image">
+                                    <img src="assets/img/car/06.jpg" alt="img">
+                                </div>
+                                <div class="car-content">
+                                    <div class="post-cat">
+                                        2024 Model
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>2 Reviews</span>
+                                    </div>
+                                    <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
+                                    <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
+                                    <div class="icon-items">
+                                        <ul>
+                                            <li>
+                                                <img src="assets/img/car/seat.svg" alt="img" class="me-1">
+                                                6 Seats
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
+                                                2 Doors
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                                License
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
+                                               Petrol/Disel/CNG
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                            <div class="car-rentals-items">
+                                <div class="car-image">
+                                    <img src="assets/img/car/07.jpg" alt="img">
+                                </div>
+                                <div class="car-content">
+                                    <div class="post-cat">
+                                        2024 Model
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>2 Reviews</span>
+                                    </div>
+                                    <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
+                                    <h6><p>Air Port Pickup/Drop/Outstation Trip Mumbai Pickup / Drop 4Hrs/40Kms or Airport Transfers 8Hrs/80Kms/full day local usea</p></h6>
+                                    <div class="icon-items">
+                                        <ul>
+                                            <li>
+                                                <img src="assets/img/car/seat.svg" alt="img" class="me-1">
+                                                6 Seats
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/car/professional driver.png" alt="img" class="me-1">
+                                                2 Doors
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <img src="assets/img/car/commertial.png" alt="img" class="me-1">
+                                                
+                                                License
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
+                                               Petrol/Disel/CNG
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9834245909" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+               </div>
+     </div>
             
 
 
@@ -932,8 +1251,7 @@
                             </div>
                             <h2>
                                 Trusted & Reliable
-                                Car Rentals <br>
-                                Gallery
+                                Car Travels 
                             </h2>
                         </div>
                     </div>
@@ -949,14 +1267,13 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testimonial-single-items">
-                                    <div class="testimonial-img bg-cover" style="background-image: url('assets/img/testimonial/01.jpg');"></div>
+                                    <div class="testimonial-img bg-cover" style="background-image: url('assets/img/testimonial/04.jpeg');"></div>
                                     <div class="testimonial-content">
                                         <p>
-                                            This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.
-                                        </p>
+                                            I booked a rental car from them just one day in advance. They were prompt to provide me with appropriate vehicle and driver details. The car was clean and driver was skillful and polite. He in fact arrived at our location well before decided time. The charges were reasonable too. I would definitely opt for their service again when in Kolhapur. </p>
                                         <div class="name-job">
                                             <h3 class="name">
-                                                Christine Eve
+                                                Pallavi Bhoite
                                             </h3>
                                         <div class="separator">.</div>
                                         <span class="job">Customer</span>
@@ -966,14 +1283,14 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testimonial-single-items">
-                                    <div class="testimonial-img bg-cover" style="background-image: url('assets/img/testimonial/02.jpg');"></div>
+                                    <div class="testimonial-img bg-cover" style="background-image: url('assets/img/testimonial/05.jpeg');"></div>
                                     <div class="testimonial-content">
                                         <p>
-                                            This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.
-                                        </p>
+                                            Divyesh Satpute agreed to give me cab service from Kolhapur to Sangli with just  one day of prior notice. He's extremely professional and an excellent driver. The ride to Sangli was smooth and I enjoyed the journey. I would recommend him personally to anyone considering to use his cab services.
+    </p>
                                         <div class="name-job">
                                             <h3 class="name">
-                                                Mike Hardson
+                                                Kiran Attal
                                             </h3>
                                         <div class="separator">.</div>
                                         <span class="job">Customer</span>
@@ -983,14 +1300,14 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testimonial-single-items">
-                                    <div class="testimonial-img bg-cover" style="background-image: url('assets/img/testimonial/03.jpg');"></div>
+                                    <div class="testimonial-img bg-cover" style="background-image: url('assets/img/testimonial/06.jpeg');"></div>
                                     <div class="testimonial-content">
                                         <p>
-                                            This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.
-                                        </p>
+                                            Perfect and very good professional service provided by siddhivinayak agency and Mr Ananth, our trip to kolhapur went very smoothly right from the airport to hotel sayaji and also mahalakshmi temple, very kind and helpful person. Amazing experience.
+   </p>
                                         <div class="name-job">
                                             <h3 class="name">
-                                                Shirley Smith
+                                                Suhas Rao
                                             </h3>
                                         <div class="separator">.</div>
                                         <span class="job">Customer</span>
@@ -1001,9 +1318,9 @@
                         </div>
                     </div>
                     <div class="client-img-items">
-                        <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/01.jpg');"></div>
-                        <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/02.jpg');"></div>
-                        <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/03.jpg');"></div>
+                        <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/04.jpeg');"></div>
+                        <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/05.jpeg');"></div>
+                        <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/06.jpeg');"></div>
                         <div class="array-button wow fadeInUp" data-wow-delay=".6s">
                             <button class="array-prev"><i class="fa-solid fa-arrow-left-long"></i></button>
                             <button class="array-next"><i class="fa-solid fa-arrow-right-long"></i></button>
@@ -1054,7 +1371,7 @@
       
 
         <!-- News Section Start -->
-        <section class="news-section section-padding fix bg-cover" style="background-image: url('assets/img/news/bg.jpg');">
+        <!-- <section class="news-section section-padding fix bg-cover" style="background-image: url('assets/img/news/bg.jpg');">
             <div class="container">
                 <div class="section-title text-center">
                     <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
@@ -1172,7 +1489,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Cta Car Booking Section Start -->
         <section class="cta-car-booking-section bg-cover section-padding" style="background-image: url('assets/img/cta/cta-service.jpg');">
@@ -1186,8 +1503,8 @@
                                     Rent Car Service in Town
                                 </h2>
                                 <div class="button-items">
-                                    <a href="about.html" class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">Discover More</a>
-                                    <a href="car-details.html" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">Book Your Car</a>
+                                    <!-- <a href="about.html" class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">Discover More</a> -->
+                                    <a href="https://wa.me/9834245909" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">Book Your Car</a>
                                 </div>
                             </div>
                             <div class="car-image">
@@ -1323,7 +1640,7 @@
                                 <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                             </a>
                         </div>
-                        <h4 class="text-white">Save big with our cheap car rental</h4>
+                        <h4 class="text-white">Save big with our Travels Service</h4>
                     </div>
                     <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">
@@ -1348,8 +1665,7 @@
                                 </div>
                                 <div class="footer-content">
                                     <p>
-                                        66 Road Broklyn Golden Street, 600
-                                        New York, USA 
+                                        R.S. No 1122/1A/2, A ward, Ring Rd, near Gangai Lawn Multipurpose Hall, Phulewadi, Kolhapur, Maharashtra 416010
                                     </p>
                                     <ul class="contact-info">
                                         <li>
@@ -1358,7 +1674,7 @@
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-phone-volume"></i>
-                                            <a href="tel:926668880000">+92 (666) 888 0000</a>
+                                            <a href="tel:+919637095999">+919637095999</a>
                                         </li>
                                     </ul>
                                 </div>
