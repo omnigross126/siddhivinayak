@@ -802,6 +802,7 @@ span {
 }
 
 .search-booking-wrapper {
+  margin-top: 184px;
   position: relative;
   z-index: 9;
 }
@@ -916,13 +917,13 @@ span {
   margin-top: 20px;
 }
 .search-booking-wrapper .product-search-area {
-  height: 603px;
-  padding: 240px;
-  background-color: var(--theme);
-  border-radius: 10px;
-  margin: -756px 0px 0px 770px;
-  border-top-left-radius: 0;
-  position: relative;
+  height: 734px;
+    padding: 244px;
+    background-color: var(--theme);
+    border-radius: 10px;
+    margin: -684px 0px 0px 801px;
+    border-top-left-radius: 0;
+    position: relative;
 }
 @media (max-width: 1199px) {
   .search-booking-wrapper .product-search-area {
