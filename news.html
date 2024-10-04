@@ -32,6 +32,79 @@
         <link rel="stylesheet" href="assets/css/nice-select.css">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="assets/css/main.css">
+
+        <style>
+            .whatsapp {
+            position: fixed;
+            bottom: 95px;
+            right: 20px;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            visibility: visible;
+        }
+        
+        .whatsapp_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .whatsapp_img:hover {
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width:600px){
+            .whatsapp{
+                width: 13%;
+                height: 7%;
+            }
+        
+            .whatsapp_img{
+                width: 120%;
+                height: 120%;
+            }
+        }
+        </style>
+        
+        
+        
+        
+        <style>
+            .call {
+            position: fixed;
+            bottom: 155px;
+            right: 28px;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            visibility: visible;
+        }
+        
+        .call_img {
+            width: 40px;
+            height: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .call_img:hover {
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width:600px){
+            .call{
+                width: 10%;
+                height: 7%;
+            }
+        
+            .call_img{
+                width: 138%;
+                height:98%;
+            }
+        }
+        
+        </style>
+        
     </head>
     <body>
 
@@ -45,6 +118,17 @@
             </svg>
         </div>
 
+        <div class="whatsapp">
+            <a href="https://wa.me/9834245909" target="_blank">
+                <img src="assets/img/WhatsApp_icon.png" alt="" height=100% width="70%" class="whatsapp_img">
+            </a>
+        </div>
+        
+        <div class="call">
+            <a href="tel:+9834245909" target="_blank">
+            <img src="assets/img/call.webp" alt="" height=100% width="70%" class="call_img">
+        </a>
+        </div>
            <!-- Offcanvas Area Start -->
            <!-- <div class="fix-area">
             <div class="offcanvas__info">
