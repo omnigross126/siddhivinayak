@@ -32,6 +32,79 @@
         <link rel="stylesheet" href="assets/css/nice-select.css">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="assets/css/main.css">
+
+        <style>
+            .whatsapp {
+            position: fixed;
+            bottom: 95px;
+            right: 20px;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            visibility: visible;
+        }
+        
+        .whatsapp_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .whatsapp_img:hover {
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width:600px){
+            .whatsapp{
+                width: 13%;
+                height: 7%;
+            }
+        
+            .whatsapp_img{
+                width: 120%;
+                height: 120%;
+            }
+        }
+        </style>
+        
+        
+        
+        
+        <style>
+            .call {
+            position: fixed;
+            bottom: 155px;
+            right: 28px;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            visibility: visible;
+        }
+        
+        .call_img {
+            width: 40px;
+            height: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .call_img:hover {
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width:600px){
+            .call{
+                width: 10%;
+                height: 7%;
+            }
+        
+            .call_img{
+                width: 138%;
+                height:98%;
+            }
+        }
+        
+        </style>
+
     </head>
     <body>
 
@@ -45,15 +118,27 @@
             </svg>
         </div>
 
+        <div class="whatsapp">
+            <a href="https://wa.me/9834245909" target="_blank">
+                <img src="assets/img/WhatsApp_icon.png" alt="" height=100% width="70%" class="whatsapp_img">
+            </a>
+        </div>
+        
+        <div class="call">
+            <a href="tel:+9834245909" target="_blank">
+            <img src="assets/img/call.webp" alt="" height=100% width="70%" class="call_img">
+        </a>
+        </div>
+
            <!-- Offcanvas Area Start -->
-           <div class="fix-area">
+           <!-- <div class="fix-area">
             <div class="offcanvas__info">
                 <div class="offcanvas__wrapper">
                     <div class="offcanvas__content">
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo/black-logo.jpg" alt="logo-img">
+                                    <img src="assets/img/logo/black-logo1.jpg" alt="logo-img">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -118,10 +203,10 @@
                 </div>
             </div>
         </div>
-        <div class="offcanvas__overlay"></div>
+        <div class="offcanvas__overlay"></div> -->
 
         <!-- Header Top Section Start -->
-        <div class="header-top-section">
+        <!-- <div class="header-top-section">
             <div class="container-fluid">
                 <div class="header-top-wrapper">
                     <ul class="contact-list">
@@ -131,7 +216,7 @@
                         </li>
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            88 Broklyn Golden Street. New York
+                            R.S. No 1122/1A/2, A ward, Ring Rd, near Gangai Lawn Multipurpose Hall, Phulewadi, Kolhapur, Maharashtra 416010
                         </li>
                     </ul>
                     <div class="header-top-right">
@@ -149,7 +234,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Header Section Start -->
         <header id="header-sticky" class="header-1">
@@ -159,7 +244,7 @@
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="assets/img/logo/black-logo.jpg" alt="logo-img">
+                                    <img src="assets/img/logo/black-logo1.jpg" alt="logo-img">
                                 </a>
                             </div>
                             <div class="mean__menu-wrapper">
@@ -169,24 +254,37 @@
                                             <li class="has-dropdown active menu-thumb">
                                                 <a href="index.html">
                                                 Home 
-                                                <i class="fas fa-angle-down"></i>
+                                                <!-- <i class="fas fa-angle-down"></i> -->
                                                 </a>
                                               
                                             </li>
                                             <li>
                                                 <a href="about.html">About Us</a>
                                             </li>
+
                                             <li class="has-dropdown">
-                                                <a href="news.html">
-                                                    Pages
+                                                <!-- <a href="services.html"> -->
+                                                    Services
                                                     <i class="fas fa-angle-down"></i>
                                                 </a>
                                                 <ul class="submenu">
-                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="faq.html">Faq's</a></li>
+                                                    <li><a href="news-details.html">kolhapur to pune car rental</a></li>
+                                                    <li><a href="news-details.html">Airpot PIck up and Drop services</a></li>
+                                                    <li><a href="news-details.html">kolhapur Darshan</a></li>
                                                 </ul>
                                             </li>
-                                            <li>
+
+                                            <li class="has-dropdown">
+                                                <a href="gallery.html">
+                                                    Gallery
+                                                    <!-- <i class="fas fa-angle-down"></i> -->
+                                                </a>
+                                                <!-- <ul class="submenu">
+                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                    <li><a href="faq.html">Faq's</a></li>
+                                                </ul> -->
+                                            </li>
+                                            <!-- <li>
                                                 <a href="program-details.html">
                                                     Cars
                                                     <i class="fas fa-angle-down"></i>
@@ -197,8 +295,8 @@
                                                     <li><a href="car-list-sidebar.html">Car Sidebar</a></li>
                                                     <li><a href="car-details.html">Car Details</a></li>
                                                 </ul>
-                                            </li>
-                                            <li>
+                                            </li> -->
+                                            <!-- <li>
                                                 <a href="news.html">
                                                     Blog
                                                     <i class="fas fa-angle-down"></i>
@@ -207,7 +305,7 @@
                                                     <li><a href="news.html">Blog</a></li>
                                                     <li><a href="news-details.html">Blog Details</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <a href="contact.html">Contact</a>
                                             </li>
@@ -223,10 +321,10 @@
                                 </div>
                                 <div class="content">
                                     <p>Call Anytime</p>
-                                    <h6><a href="tel:+9288009850">+92 (8800) - 9850</a></h6>
+                                    <h6><a href="tel:+9196370 95999">+91 96370 95999</a></h6>
                                 </div>
                             </div>
-                            <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a>
+                            <!-- <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a> -->
                             <div class="header-button">
                                 <a href="car-details.html" class="header-btn">
                                     Find a Car
@@ -551,8 +649,7 @@
                                 </div>
                                 <div class="footer-content">
                                     <p>
-                                        66 Road Broklyn Golden Street, 600
-                                        New York, USA 
+                                        R.S. No 1122/1A/2, A ward, Ring Rd, near Gangai Lawn Multipurpose Hall, Phulewadi, Kolhapur, Maharashtra 416010
                                     </p>
                                     <ul class="contact-info">
                                         <li>
@@ -561,7 +658,7 @@
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-phone-volume"></i>
-                                            <a href="tel:926668880000">+92 (666) 888 0000</a>
+                                            <a href="tel:9196370 95999">+91 96370 95999</a>
                                         </li>
                                     </ul>
                                 </div>

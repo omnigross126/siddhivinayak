@@ -171,6 +171,7 @@ h1 {
 }
 
 h2 {
+  margin-top:46px;
   font-size: 50px;
   line-height: 125%;
   font-weight: 600;
@@ -249,6 +250,44 @@ span {
   left: 17%;
   z-index: 9;
 }
+
+.logo{
+  width: 170px;
+}
+
+
+@media (max-width: 1399px) {
+  .logo{
+    margin-left: 54px;
+    width: 170px;
+  }
+}
+@media (max-width: 1199px) {
+  .about-wrapper .about-image-items .counter-content {
+    left: 0;
+    top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .about-wrapper .about-image-items .counter-content {
+    left: 36%;
+    top: 5%;
+  }
+}
+@media (max-width: 767px) {
+  .about-wrapper .about-image-items .counter-content {
+    left: 0;
+    top: 0;
+    padding: 18px;
+  }
+}
+
+
+
+
+
+
+
 @media (max-width: 1399px) {
   .about-wrapper .about-image-items .counter-content {
     left: 18%;
@@ -910,7 +949,7 @@ span {
 }
 .search-booking-wrapper .booking-man img {
   width: 100%;
-  height: 100%;
+  height: 96%;
   object-fit: cover;
 }
 @media (max-width: 1199px) {
@@ -1671,6 +1710,11 @@ span {
 .faq-sidebar .icon-items {
   text-align: center;
 }
+
+/* .icon-items li1{
+  margin: -1px -5px 8px -14px;
+
+} */
 .faq-sidebar .icon-items .icon {
   width: 50px;
   height: 50px;
@@ -5462,7 +5506,12 @@ input.main-search-input::placeholder {
   transition: all 0.4s ease-in-out;
 }
 .car-rentals-items .car-content {
-  padding: 25px 35px;
+
+  /* padding-bottom: 24px;
+    padding-top: 24px;
+    padding-right: 11px;
+    padding-left: 23px; */
+  padding: 24px 11px 24px 23px;
   background-color: var(--white);
   border-radius: 0 0 10px 10px;
   border: 1px solid #d0d7de;
@@ -5504,13 +5553,24 @@ input.main-search-input::placeholder {
   color: var(--text);
 }
 .car-rentals-items .car-content .icon-items {
-  margin-top: 20px;
+  /* margin-top: 20px;
   border-top: 1px solid var(--border);
   padding-top: 20px;
   display: flex;
   align-items: center;
   gap: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
+
+
+  margin-left: -18px;
+    margin-top: 20px;
+    border-top: 1px solid var(--border);
+    padding-top: 29px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 26px;
+
 }
 @media (max-width: 1199px) {
   .car-rentals-items .car-content .icon-items {
