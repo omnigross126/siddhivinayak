@@ -283,7 +283,10 @@ span {
 }
 
 
-
+/* .car-imagee #car-section {
+  height:374px ;
+  width: 249px;
+} */
 
 
 
@@ -5611,10 +5614,10 @@ input.main-search-input::placeholder {
   position: relative;
   overflow: hidden;
 }
-.car-service-wrapper .service-car-image img {
+/* .car-service-wrapper .service-car-image img {
   width: 100%;
   height: 100%;
-}
+} */
 .car-service-wrapper .service-car-image .color-shape {
   position: absolute;
   bottom: -40px;
