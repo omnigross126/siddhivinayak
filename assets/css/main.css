@@ -1219,6 +1219,7 @@ span {
   }
 }
 
+
 .cta-rental-items h4 {
   font-weight: 400;
   color: var(--white);
@@ -7220,7 +7221,7 @@ input.main-search-input::placeholder {
 
 
 /* Responsive CSS */
-
+/* 
 @media (max-width: 768px) {
   .container-box .workik-contact-box {
       width: 45%;
@@ -7231,11 +7232,68 @@ input.main-search-input::placeholder {
   .container-box .workik-contact-box {
       width: 100%;
   }
+} */
+
+
+
+.contact-wrapper-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.contact-content, .contact-right-items {
+  flex-basis: 100%;
+  margin: 20px;
+}
+@media (max-width: 576px) {
+  .contact-content {
+      flex-basis: 100%;
+  }
+  .contact-right-items {
+      flex-basis: 100%;
+  }
+}
 
+/* Small Screen (max-width: 768px) */
+@media (max-width: 768px) {
+  .contact-content {
+      flex-basis: 70%;
+  }
+  .contact-right-items {
+      flex-basis: 30%;
+  }
+}
 
+/* Medium Screen (max-width: 992px) */
+@media (max-width: 992px) {
+  .contact-content {
+      flex-basis: 75%;
+  }
+  .contact-right-items {
+      flex-basis: 25%;
+  }
+}
 
+/* Large Screen (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .contact-content {
+      flex-basis: 80%;
+  }
+  .contact-right-items {
+      flex-basis: 20%;
+  }
+}
+
+/* Extra Large Screen (min-width: 1200px) */
+@media (min-width: 1200px) {
+  .contact-content {
+      flex-basis: 85%;
+  }
+  .contact-right-items {
+      flex-basis: 15%;
+  }
+}
 
 
 
