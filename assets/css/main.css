@@ -1595,7 +1595,7 @@ span {
   animation: float-bob-y 3s linear infinite;
 }
 .faq-content{
-  margin-top: 165px;
+  margin-top: 110px;
 }
 .faq-content .accordion-item {
   margin-top: 20px;
@@ -1665,6 +1665,7 @@ span {
   height: 100%;
 }
 .faq-wrapper .faq-image img {
+  margin-top: 28%;
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -7128,13 +7129,13 @@ input.main-search-input::placeholder {
 
 .container-box {
   background-color: #fff;
-  padding: 30px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+    padding: 29px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 21px;
+    margin-right: -15px;
 }
 
 
@@ -7217,7 +7218,9 @@ input.main-search-input::placeholder {
   height: 30px;
 }
 
-
+.container-box p{
+  display: inline;
+}
 
 
 /* Responsive CSS */
