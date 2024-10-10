@@ -1327,6 +1327,7 @@ span {
   display: flex;
   align-items: center;
   gap: 70px;
+  margin-left: -99px;
 }
 @media (max-width: 767px) {
   .cta-cheap-rental .cta-cheap-rental-left {
