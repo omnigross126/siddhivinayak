@@ -3334,7 +3334,7 @@ span {
 .header-3 .header-main .header-left {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 80px;
 }
 .header-3 .header-main .header-left .header-logo-2 {
   display: none;
@@ -3442,9 +3442,9 @@ span {
 .sticky.header-3 .header-main .header-right .header__hamburger .sidebar__toggle {
   color: var(--header);
 }
-.sticky.header-3 .header-left .header-logo-1 {
+/* .sticky.header-3 .header-left .header-logo-1 {
   display: none;
-}
+} */
 .sticky.header-3 .header-left .header-logo-2 {
   display: block;
 }
@@ -7301,3 +7301,82 @@ input.main-search-input::placeholder {
 
 
 
+/* css for new secition in about us page  */
+
+
+.new body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.new header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #007bff;
+  color: white;
+}
+.new h1, h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+.new h4{ 
+  text-align: center;
+  color: #333;
+  font-family: "Lexend", sans-serif;
+  font-size: 50px;
+    line-height: 125%;
+    font-weight: 600;
+}
+/* .new img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+} */
+/* section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+
+} */
+.new .block{
+  padding: 29px;
+  margin: 52px;
+display:flex;
+}
+.new .left{
+width:50%;
+
+}
+.new .right{
+  margin-left: 100px;
+width:50%;
+}
+.new ul {
+  list-style-type: square;
+  margin-top: 44px;
+  size: 5px;
+  padding: 0;
+}
+.new ul li {
+  background: #fafcfd;
+  color: rgb(11, 11, 11);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+.new .text_left{
+
+margin-top: 80px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.right div ul li::marker {
+  font-size: 22px;
+}
