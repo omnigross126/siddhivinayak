@@ -3041,6 +3041,8 @@ span {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   color: var(--theme);
+  color: white;
+  
 }
 .header-main .main-menu ul li:hover > a {
   color: var(--theme);
