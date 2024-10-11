@@ -7431,3 +7431,23 @@ margin-top: 80px;
         margin-top: 10px;
     }
 }
+
+
+
+
+.news-details-wrapper h2{
+  margin: 30px;
+}
+
+.news-details-wrapper p{
+  margin: 10px;
+  font-weight: bold;
+}
+
+.news-details-section .theme-btn{
+  margin-top: 20px;
+  margin-left: 40%;
+/* align-items: center; */
+/* width: 50px; */
+}
+
