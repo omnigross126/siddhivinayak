@@ -7383,3 +7383,51 @@ margin-top: 80px;
 .right div ul li::marker {
   font-size: 22px;
 }
+
+@media (max-width: 768px) {
+  .new {
+      grid-template-columns: repeat(6, 1fr);
+  }
+  .new .left {
+      grid-column: span 6;
+  }
+  .new .right {
+      grid-column: span 6;
+  }
+}
+
+@media (max-width: 567) {
+  .new {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .new .left {
+      grid-column: span 1;
+  }
+  .new .right {
+      grid-column: span 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .new {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .new .left {
+      grid-column: span 1;
+  }
+  .new .right {
+      grid-column: span 1;
+  }
+}
+
+@media (max-width: 360px) {
+    .about-image {
+        height: 200px;
+    }
+    .about-content {
+        padding: 10px;
+    }
+    .about-btn {
+        margin-top: 10px;
+    }
+}
