@@ -26,7 +26,7 @@ Version: 1.0.0
 }
 
 .theme-btn {
-  margin-left: -53px;
+  margin-left: -8px;
   background-color: var(--theme);
   color: var(--white);
   display: inline-block;
@@ -7349,8 +7349,9 @@ input.main-search-input::placeholder {
 
 } */
 .new .block{
+  margin-left: 80px;
   padding: 29px;
-  margin: 52px;
+  /* margin: 52px; */
 display:flex;
 }
 .new .left{
@@ -7388,6 +7389,7 @@ margin-top: 80px;
 
 @media (max-width: 768px) {
   .new {
+    display: grid;
       grid-template-columns: repeat(6, 1fr);
   }
   .new .left {
@@ -7400,6 +7402,8 @@ margin-top: 80px;
 
 @media (max-width: 567) {
   .new {
+    display: grid;
+    /* flex-direction: column; */
       grid-template-columns: repeat(2, 1fr);
   }
   .new .left {
@@ -7412,6 +7416,8 @@ margin-top: 80px;
 
 @media (max-width: 480px) {
   .new {
+    display: grid;
+    /* flex-direction: column; */
       grid-template-columns: repeat(1, 1fr);
   }
   .new .left {
