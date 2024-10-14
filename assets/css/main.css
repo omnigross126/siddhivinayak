@@ -1125,7 +1125,7 @@ span {
 .search-booking-wrapper .product-search-area .pickup-items .theme-btn::before, .search-booking-wrapper .product-search-area .pickup-items .theme-btn::after {
   background-color: var(--theme2);
 }
-/* 
+
 .contact-wrapper-area {
   margin-top: -29px;
   padding: 7px;
@@ -1214,8 +1214,8 @@ span {
   margin-bottom: -80px;
   position: relative;
   z-index: 9;
-} */
-/* 
+}
+
 .map-items .googpemap iframe {
   margin-top: 90px;
   width: 100%;
@@ -1225,9 +1225,9 @@ span {
   .map-items .googpemap iframe {
     height: 400px;
   }
-} */
+}
 
-/* 
+
 .cta-rental-items h4 {
   font-weight: 400;
   color: var(--white);
@@ -1303,8 +1303,8 @@ span {
 }
 .cta-rental-items .rental-app-button .app-button-items.style-2:hover .button-text .headding-text {
   color: var(--white);
-} */
-/* 
+}
+
 .mobile-remons-image {
   margin-bottom: -120px;
   max-width: 412px;
@@ -1312,7 +1312,7 @@ span {
 .mobile-remons-image img {
   width: 100%;
   height: 100%;
-} */
+}
 
 .cta-cheap-rental-section {
   background-color: rgb(17, 26, 54);
@@ -1382,7 +1382,7 @@ span {
   background-color: var(--theme);
   color: var(--white);
 }
-/* 
+
 .pickup-wrapper {
   display: flex;
   align-items: center;
@@ -1521,7 +1521,7 @@ span {
   .pickup-wrapper.style-2 {
     margin-top: -100px;
   }
-} */
+}
 
 .cta-car-booking-section {
   position: relative;
@@ -1756,7 +1756,7 @@ span {
   background-color: var(--theme);
   color: var(--white);
 }
-/* 
+
 .feature-benefit-items {
   margin-top: 30px;
   border-radius: 10px;
@@ -1845,7 +1845,7 @@ span {
 }
 .feature-benefit-items:hover .feature-button .link-btn {
   color: var(--white);
-} */
+}
 
 .funfact-section {
   margin-top: -80px;
@@ -2312,7 +2312,7 @@ span {
 .galley-wrapper-2 .gallery-items-three {
   margin: 0 20px;
 }
-/* 
+
 .how-works-items {
   margin-top: 30px;
   text-align: center;
@@ -2365,8 +2365,8 @@ span {
 }
 .how-works-items.active .icon-box .icon .icon-1 {
   display: none;
-} */
-/* 
+}
+
 .rental-benefit-section {
   position: relative;
   margin-bottom: 40px;
@@ -2510,7 +2510,7 @@ span {
 .rental-benefit-wrapper .rental-benefit-content .benefit-counter-items .content p {
   color: var(--white);
   font-size: 18px;
-} */
+}
 
 .faster-booking-image {
   height: 265px;
@@ -2613,7 +2613,7 @@ span {
   font-weight: bold;
   color: var(--white);
 }
-/* .footer-widgets-wrapper .single-footer-widget .footer-content p {
+.footer-widgets-wrapper .single-footer-widget .footer-content p {
   color: #8E94A5;
 }
 .footer-widgets-wrapper .single-footer-widget .footer-content .social-icon {
@@ -2640,7 +2640,6 @@ span {
   background-color: transparent;
   border: 1px solid rgba(227, 227, 227, 0.2);
 }
- */
 .footer-widgets-wrapper .single-footer-widget .footer-content .social-icon a:hover {
   background-color: var(--theme);
   color: var(--white);
@@ -2664,7 +2663,6 @@ span {
 .footer-widgets-wrapper .single-footer-widget .footer-content .contact-info li a {
   color: var(--white);
 }
-/*  
 .footer-widgets-wrapper .single-footer-widget .footer-content .footer-input {
   position: relative;
   margin-top: 40px;
@@ -2697,9 +2695,9 @@ span {
   transition: all 0.4s ease-in-out;
 }
 .footer-widgets-wrapper .single-footer-widget .footer-content .footer-input .newsletter-btn:hover {
-  background-color: var(--theme); 
- } */
-/* .footer-widgets-wrapper .single-footer-widget .list-items li {
+  background-color: var(--theme);
+}
+.footer-widgets-wrapper .single-footer-widget .list-items li {
   text-transform: capitalize;
 }
 .footer-widgets-wrapper .single-footer-widget .list-items li:not(:last-child) {
@@ -2730,7 +2728,7 @@ span {
 .footer-widgets-wrapper .single-footer-widget .list-items li a:hover::before {
   opacity: 1;
   visibility: visible;
-} */
+}
 .footer-widgets-wrapper .single-footer-widget .footer-gallery .gallery-wrap .gallery-item {
   display: flex;
   align-items: center;
@@ -2874,7 +2872,7 @@ span {
   }
 }
 
-/* .header-top-wrapper {
+.header-top-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2947,7 +2945,7 @@ span {
 }
 .header-top-wrapper.style-2 .header-top-right .top-list li a {
   color: #8e94a5;
-} */
+}
 
 .header-main {
   display: flex;
@@ -7703,141 +7701,3 @@ margin: 0px;
 
 
 /* css of contat page  */
-
-
-.new-container body {
-  font-family: Arial, sans-serif;
-  background-color: #e6f0fa;
-  margin: 0;
-  padding: 0;
-}
-.new-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: relative;
-}
-.new-container .contact-card {
-  margin-top: -8px;
-  height: 490px;
-margin-left: 135px;
-color: white;
-background-color: #333;
-color: white;
-padding: 37px;
-border-radius: 0px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-width: 297px;
-margin-right: 2px;
-z-index: 1;
-}
-.new-container .contact-card h2 {
-  font-size: 31px;
-  color: white;
-  margin-top: 0;
-}
-.new-container .contact-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.new-container .contact-item i {
-  font-size: 24px;
-  margin-right: 10px;
-}
-.new-container .contact-item p {
-  color: white;
-  margin: 0;
-}
-.new-container .social-icons {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.new-container  .social-icons a {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-.new-container   .map {
-  margin-left: 51px;
-  width: 71%;
-  border: 0;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.social-icons{
-  display: grid;
-font-size: 33px;
-gap: 46px;
-margin-left: 150px;
-margin-top: -497px;
-margin-bottom: 158px;
-}
-
-
-/* Responsive CSS */
-
-@media only screen and (max-width: 1200px) {
-.contact-card {
-padding: 5px;
-}
-.contact-item {
-margin-bottom: 15px;
-}
-.map {
-height: 100px;
-}
-}
-
-@media only screen and (max-width: 992px) {
-.contact-card {
-padding: 10px;
-}
-.contact-item {
-margin-bottom: 10px;
-}
-.map {
-height: 250px;
-}
-}
-
-@media only screen and (max-width: 768px) {
-.contact-card {
-padding: 5px;
-}
-.contact-item {
-flex-direction: column;
-align-items: flex-start;
-}
-.contact-item i {
-margin-bottom: 10px;
-}
-.map {
-height: 200px;
-}
-}
-
-@media only screen and (max-width: 576px) {
-.contact-card {
-padding: 5px;
-}
-.contact-item {
-margin-bottom: 10px;
-}
-.contact-item i {
-font-size: 20px;
-}
-.contact-item p {
-font-size: 16px;
-}
-.map {
-height: 150px;
-}
-}
