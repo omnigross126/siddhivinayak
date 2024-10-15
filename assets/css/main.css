@@ -1215,7 +1215,7 @@ span {
   position: relative;
   z-index: 9;
 } */
-/* 
+
 .map-items .googpemap iframe {
   margin-top: 90px;
   width: 100%;
@@ -1225,7 +1225,7 @@ span {
   .map-items .googpemap iframe {
     height: 400px;
   }
-} */
+} 
 
 /* 
 .cta-rental-items h4 {
@@ -7301,22 +7301,22 @@ input.main-search-input::placeholder {
   margin-bottom: 10px;
   font-family:cursive;
 }
-
+/* 
 .container-box .text-content .contactus-head {
   font-size: 36px;
   font-weight: 700;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
-}
-
+/* } */
+/* 
 .container-box .text-content .contactus-subhead {
   font-size: 18px;
   font-weight: 400;
   color: #666;
   margin-bottom: 20px;
   font-family:serif
-}
+} */
 
 .container-box .workik-contact-bigbox {
   display: flex;
@@ -7704,7 +7704,7 @@ margin: 0px;
 
 /* css of contat page  */
 
-
+/* 
 .new-container body {
   font-family: Arial, sans-serif;
   background-color: #e6f0fa;
@@ -7779,11 +7779,11 @@ gap: 46px;
 margin-left: 150px;
 margin-top: -497px;
 margin-bottom: 158px;
-}
+} */
 
 
 /* Responsive CSS */
-
+/* 
 @media only screen and (max-width: 1200px) {
 .contact-card {
 padding: 5px;
@@ -7840,4 +7840,4 @@ font-size: 16px;
 .map {
 height: 150px;
 }
-}
+} */
