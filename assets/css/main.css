@@ -3575,7 +3575,7 @@ span {
   background-color: var(--theme);
   color: var(--white);
 }
-
+/* 
 .offcanvas__overlay {
   position: fixed;
   height: 100%;
@@ -3591,7 +3591,7 @@ span {
 .offcanvas__overlay.overlay-open {
   opacity: 0.8;
   visibility: visible;
-}
+} */
 
 @media (max-width: 450px) {
   .offcanvas__info {
@@ -6600,7 +6600,7 @@ input.main-search-input::placeholder {
   border: none;
 }
 
-.woocommerce-notices-wrapper {
+/* .woocommerce-notices-wrapper {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
@@ -6655,8 +6655,8 @@ input.main-search-input::placeholder {
   height: 10px;
   top: 35px;
   border-right: 2px solid var(--text);
-}
-
+} */
+/* 
 .team-card-items {
   margin-top: 30px;
   text-align: center;
@@ -6723,7 +6723,7 @@ input.main-search-input::placeholder {
 .team-card-items .team-content .social-icon a:hover {
   background-color: var(--theme);
   color: var(--white);
-}
+} */
 
 .testimonial-card-items {
   margin-top: 50px;
@@ -7389,7 +7389,7 @@ input.main-search-input::placeholder {
 
 
 
-.contact-wrapper-area {
+/* .contact-wrapper-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -7406,47 +7406,47 @@ input.main-search-input::placeholder {
   .contact-right-items {
       flex-basis: 100%;
   }
-}
+} */
 
 /* Small Screen (max-width: 768px) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-content {
       flex-basis: 70%;
   }
   .contact-right-items {
       flex-basis: 30%;
   }
-}
+} */
 
 /* Medium Screen (max-width: 992px) */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .contact-content {
       flex-basis: 75%;
   }
   .contact-right-items {
       flex-basis: 25%;
   }
-}
+} */
 
 /* Large Screen (max-width: 1200px) */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .contact-content {
       flex-basis: 80%;
   }
   .contact-right-items {
       flex-basis: 20%;
   }
-}
+} */
 
 /* Extra Large Screen (min-width: 1200px) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .contact-content {
       flex-basis: 85%;
   }
   .contact-right-items {
       flex-basis: 15%;
   }
-}
+} */
 
 
 
